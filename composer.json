@@ -1,0 +1,20 @@
+{
+    "name": "exoVincent",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^4.5",
+        "components/jquery": "^3.5"
+    },
+    "license": "GPL 3.0",
+    "authors": [
+        {
+            "name": "Quentin..Chastin",
+            "email": "chastinquentin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "exoVincent\\": "./"
+        }
+    }
+}
